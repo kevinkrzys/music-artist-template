@@ -244,7 +244,7 @@ section.hero {
   position: relative;
 }
 .header.switched-header {
-  background-color: #ffffff;
+  background-color: #ab1323;
   left: 0;
   position: fixed;
   top: 0;
@@ -255,13 +255,13 @@ section.hero {
   display: inline-block;
 }
 .header .logo h2 {
-  color: #ffffff;
+  color: #1c1c1c;
   font-size: 1.3rem;
   font-weight: 600;
 }
 
 .header.switched-header .logo h2 {
-  color: #222222;
+  color: #ffffff;
 }
 .mobile-but {
   display: inline-block;
@@ -303,7 +303,7 @@ section.hero {
 }
 .mobile-but .lines:after,
 .mobile-but .lines:before {
-  background: #ff5252;
+  background: #e1e1e1;
 }
 .toggle-mobile-but.active .mobile-but .lines:after {
   transform: translate(0px, -1px) rotate(45deg);
@@ -327,7 +327,7 @@ section.hero {
 }
 
 .main-nav ul li i {
-  color: #ff5252;
+  color: #e1e1e1;
 }
 
 .main-nav ul li.block-helper:last-child {
@@ -358,7 +358,7 @@ section.hero {
   color: #ff5252;
 }
 .header.switched-header .main-nav li a {
-  color: #949494;
+  color: #e1e1e1;
 }
 
 .header.switched-header .block-helper li a {
@@ -472,7 +472,7 @@ h1.large {
   content: "";
   width: 100%;
   height: 0.245rem;
-  background: #ff5252;
+  background: #ab1323;
   bottom: 4px;
   left: 0;
   z-index: -1;
@@ -601,10 +601,10 @@ h1.large {
   content: "\e8d8";
   color: #ff5252;
 }
-.block-tracklist .playlist li.playing.pause:before {
+/* .block-tracklist .playlist li.playing.pause:before {
   content: "\e8d4";
   color: #ff5252;
-}
+} */
 span.selected,
 a.selected {
   color: #ffffff;
@@ -826,7 +826,7 @@ img.background-img {
   }
 
   .header {
-    background-color: #ffffff !important;
+    background-color: #ab1323 !important;
   }
   .header .logo {
     margin-top: 0;
@@ -834,7 +834,8 @@ img.background-img {
   }
 
   .header .logo h2 {
-    color: #222222 !important;
+    color: #1c1c1c !important;
+    font-weight: bold;
   }
 
   .mobile-but {
@@ -856,7 +857,7 @@ img.background-img {
 
   .main-nav li:before {
     content: "";
-    background-color: #ff5252;
+    background-color: #1c1c1c;
     height: 1px;
     width: 6px;
     position: absolute;
@@ -888,7 +889,7 @@ img.background-img {
   }
 
   .main-nav li a {
-    color: #949494 !important;
+    color: #e1e1e1 !important;
   }
   .main-nav li:last-child a {
     padding-bottom: 0;
