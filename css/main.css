@@ -1401,3 +1401,11 @@ img.background-img {
     font-size: 14px;
   }
 }
+
+.modal-header {
+  display: block;
+}
+
+.form-control:focus {
+  color: #1c1c1c;
+}
