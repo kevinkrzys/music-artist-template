@@ -1405,3 +1405,7 @@ img.background-img {
 .modal-header {
   display: block;
 }
+
+.form-control:focus {
+  color: #1c1c1c;
+}
